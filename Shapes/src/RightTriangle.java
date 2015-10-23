@@ -9,7 +9,7 @@ public class RightTriangle extends Triangle
 			
 		}
 		
-		public double findHypotenuse(double base, double height)
+		public double findHypotenuse()
 		{
 			
 			return Math.sqrt(Math.pow(base, 2) +Math.pow(height, 2) );
@@ -20,7 +20,7 @@ public class RightTriangle extends Triangle
 		public double findPerimeter()
 		{
 			
-			return findHypotenuse(base, height) + base + height;
+			return findHypotenuse() + base + height;
 			
 		}
 		

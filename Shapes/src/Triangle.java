@@ -5,10 +5,10 @@ public abstract class Triangle extends Shape
 		protected double base;
 		protected double height;
 		
-		public double findArea(double b, double h)
+		public double findArea()
 		{
 			
-		return .5*(b*h);	
+		return .5*(base*height);	
 			
 		}
 		
